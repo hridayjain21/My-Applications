@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:background="@color/colorAccent">
+            <TextView
+                android:id="@+id/enter_item"
+                android:layout_width="wrap_content"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_item"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_name"
+                android:layout_below="@+id/enter_item"
+                android:hint="@string/hint_name"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_quantity"
+                android:layout_below="@+id/item_name"
+                android:hint="@string/hint_quantity"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_type"
+                android:layout_below="@+id/item_quantity"
+                android:hint="@string/hint_type"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_type"
+                android:id="@+id/saveButton"
+                android:layout_marginTop="10dp"
+                android:text="@string/saveButton"
+                android:textSize="20dp"
+                android:background="@color/colorsave"
+                android:textStyle="italic"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+

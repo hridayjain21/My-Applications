@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Daily Needs App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add_item">ADD ITEM</string>
+    <string name="enter_item">ENTER ITEM:</string>
+    <string name="hint_name">enter name</string>
+    <string name="hint_type">item type</string>
+    <string name="hint_quantity">item quantity</string>
+    <string name="saveButton">SAVE</string>
+    <string name="itemname">item name</string>
+    <string name="itemQuantity">item quantity</string>
+    <string name="itemtype">item type</string>
+    <string name="delete_conf">Are you sure you want to remove this item ?</string>
+    <string name="conf_yes">Yes</string>
+    <string name="conf_no">No</string>
+
+</resources>
